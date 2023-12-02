@@ -44,13 +44,14 @@ void zad2()
 
     cout << "\n\nAfter swap: \n";
 
-
     for (int x = 0; x < mid; x++)
         cout << arr[x] << "\t" << arr[mid + x] << "\n";
+
+    delete[] arr;
 }
 
 int main()
 {
-    zad1();
+    //zad1();
     zad2();
 }
