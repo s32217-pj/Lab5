@@ -52,6 +52,6 @@ void zad2()
 
 int main()
 {
-    //zad1();
+    zad1();
     zad2();
 }
